@@ -1,7 +1,7 @@
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         Robot robot1 = new Robot();
         Robot robot2 = new Robot();
         Line line = new Line(List.of(robot1.location, robot2.location));
